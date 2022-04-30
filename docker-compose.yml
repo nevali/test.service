@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  http:
+    image: "nginx"
+    ports:
+      - "80:80/tcp"
